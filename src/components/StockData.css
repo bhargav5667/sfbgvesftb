@@ -1,0 +1,39 @@
+/* Container for stock data */
+.stock-data-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Title styling */
+  .stock-data-title {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  /* Stock data content */
+  .stock-data-content {
+    background: #2d2d2d;
+    color: #0f0;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: left;
+    overflow-x: auto;
+    font-family: "Courier New", monospace;
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  /* Loading text */
+  .loading-text {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  

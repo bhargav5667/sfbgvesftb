@@ -1,0 +1,52 @@
+/* StockList.css */
+
+/* Wrapper for the stock list container */
+.stock-list {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f6f8;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title for the stock list */
+  .stock-list h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* List styling */
+  .stock-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .stock-list li {
+    margin: 10px 0;
+    font-size: 1.1rem;
+  }
+  
+  /* Styling for the links */
+  .stock-list a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .stock-list a:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* Optional: Add a hover effect for the entire list item */
+  .stock-list li:hover {
+    background-color: #f9f9f9;
+    border-radius: 4px;
+  }
+  

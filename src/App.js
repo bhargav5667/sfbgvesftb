@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import NewsCards from './components/NewsCards'; 
 import './App.css';
 import Home from "./pages/Home";  // ✅ Import Home.js
+import CurrencyExchange from './components/CurrencyExchange'; 
 function App() {
   return (
     <div>
@@ -20,7 +21,7 @@ function App() {
           <Route path="/stock/:symbol" element={<StockPage />} />
           <Route path="/search" element={<StockSearch />} />
         </Routes>
-
+        <CurrencyExchange />
         {/* Financial News section */}
         <div className="App">
           <h1>Latest Financial News</h1>
